@@ -1,0 +1,117 @@
+{
+  "created_at": "2025-11-19T21:29:14.384282",
+  "num_series": 1000000,
+  "days": 252,
+  "start_price": 100.0,
+  "processes": 8,
+  "shard_size": 50000,
+  "batch_size": 4096,
+  "seed": 218218385057332990569179934223109205316,
+  "trend_probs": {
+    "bull": 0.25,
+    "bear": 0.25,
+    "choppy": 0.2,
+    "random": 0.3
+  },
+  "trend_counts": {
+    "bull": 236717,
+    "choppy": 189975,
+    "random": 285659,
+    "bear": 237036
+  },
+  "files": {
+    "summary_counts": {
+      "path": "summary_counts.json",
+      "size_bytes": 78
+    },
+    "shards": [
+      {
+        "path": "part_01.jsonl.gz",
+        "size_bytes": 113334662
+      },
+      {
+        "path": "part_02.jsonl.gz",
+        "size_bytes": 113330062
+      },
+      {
+        "path": "part_03.jsonl.gz",
+        "size_bytes": 113318348
+      },
+      {
+        "path": "part_04.jsonl.gz",
+        "size_bytes": 113336651
+      },
+      {
+        "path": "part_05.jsonl.gz",
+        "size_bytes": 113328535
+      },
+      {
+        "path": "part_06.jsonl.gz",
+        "size_bytes": 113331466
+      },
+      {
+        "path": "part_07.jsonl.gz",
+        "size_bytes": 113324966
+      },
+      {
+        "path": "part_08.jsonl.gz",
+        "size_bytes": 113319229
+      },
+      {
+        "path": "part_09.jsonl.gz",
+        "size_bytes": 99641278
+      },
+      {
+        "path": "part_10.jsonl.gz",
+        "size_bytes": 99698074
+      },
+      {
+        "path": "part_11.jsonl.gz",
+        "size_bytes": 98993928
+      },
+      {
+        "path": "part_12.jsonl.gz",
+        "size_bytes": 98610921
+      },
+      {
+        "path": "part_13.jsonl.gz",
+        "size_bytes": 98783734
+      },
+      {
+        "path": "part_14.jsonl.gz",
+        "size_bytes": 98192824
+      },
+      {
+        "path": "part_15.jsonl.gz",
+        "size_bytes": 98283311
+      },
+      {
+        "path": "part_16.jsonl.gz",
+        "size_bytes": 99722258
+      },
+      {
+        "path": "part_17.jsonl.gz",
+        "size_bytes": 113342690
+      },
+      {
+        "path": "part_18.jsonl.gz",
+        "size_bytes": 113339087
+      },
+      {
+        "path": "part_19.jsonl.gz",
+        "size_bytes": 113334747
+      },
+      {
+        "path": "part_20.jsonl.gz",
+        "size_bytes": 113336647
+      }
+    ],
+    "parquet": [],
+    "money_plot": {
+      "path": "money_plot.png",
+      "size_bytes": 457965
+    }
+  },
+  "source": "synthetic_tradingforge_2025",
+  "schema_version": "1.1"
+}
