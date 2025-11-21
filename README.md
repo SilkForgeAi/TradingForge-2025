@@ -12,5 +12,6 @@ TradingForge-2025
 - Parquet export available on request
 - Fully reproducible (master seed + per-shard seeds)
 - Generated on a laptop in under 15 minutes
+- Exclusive buyout price: $250k — first wire wins.
 
 ---Output
